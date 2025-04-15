@@ -31,7 +31,7 @@ export default async function MainPage() {
       <div className="flex justify-between px-4 max-w-fulls">
         <div className="">
           <h1 className="text-2xl font-bold text-gray-900">Beer Market</h1>
-          <p className="text-gray-500 mt-1">Let s get some foods</p>
+          <p className="text-gray-500 mt-1">Let s get some beers</p>
         </div>
         <Image
           src={"/images/gokuBeer.jpg"}

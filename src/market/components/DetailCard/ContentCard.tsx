@@ -38,7 +38,7 @@ export const ContentCard = ({ name, rating, price }: Props) => {
     <div className="bg-white rounded-t-3xl border-t border-gray-100 px-4 pt-4 pb-4 -mt-6 fixed bottom-0 z-10 md:relative">
       <div className="flex items-center justify-between mb-2">
         <div className="flex flex-col items-center  mb-1">
-          <h2 className="text-lg font-bold">{name}</h2>
+          <h2 className="text-lg font-bold text-gray-900">{name}</h2>
           <StartRating rating={rating} />
         </div>
         <CounterProducts
@@ -65,7 +65,7 @@ export const ContentCard = ({ name, rating, price }: Props) => {
       <div className="mt-2 pt-2 border-t border-gray-200">
         <div className="flex justify-between items-center">
           <div>
-            <p className="text-xs text-gray-500">Total Price:</p>
+            <p className="text-xs text-gray-800">Total Price:</p>
             <p className="font-bold text-base">IDR {price}</p>
           </div>
           <button

@@ -19,7 +19,7 @@ export const ResponsiveNavigationBar = () => {
     },
     {
       path: "/",
-      title: "Profile( Coming Soon )",
+      title: "Coming Soon",
       icon: <IoBody className="w-6 h-6 mb-1" />,
     },
   ];

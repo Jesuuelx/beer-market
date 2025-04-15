@@ -24,7 +24,7 @@ export const BeerCard = ({ image, name, rating, path }: FoodCardProps) => {
         priority={false}
       />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2">{name}</h3>
+        <h3 className="text-xl font-bold mb-2 text-gray-900">{name}</h3>
         <StartRating rating={rating} />
       </div>
     </Link>
