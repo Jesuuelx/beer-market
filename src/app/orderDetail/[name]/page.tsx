@@ -90,6 +90,7 @@ export default async function DetailProductPage({ params }: PageProps) {
           height={350}
           alt="Food"
           className="w-full h-full object-cover"
+          priority={true}
         />
       </div>
       <ContentCard name={item.name} rating={item.rating} price={item.price} />
