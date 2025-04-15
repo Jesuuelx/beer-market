@@ -66,7 +66,7 @@ export const ContentCard = ({ name, rating, price }: Props) => {
         <div className="flex justify-between items-center">
           <div>
             <p className="text-xs text-gray-800">Total Price:</p>
-            <p className="font-bold text-base">IDR {price}</p>
+            <p className="font-bold text-base text-gray-800">IDR {price}</p>
           </div>
           <button
             className="bg-brand text-white py-4 px-10 rounded-md font-medium text-sm"

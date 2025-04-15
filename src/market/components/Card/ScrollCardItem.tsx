@@ -19,8 +19,8 @@ export const ScrollCardItem = ({ name, image, quantity }: Props) => {
         />
       </div>
       <div className="flex-1">
-        <h3 className="font-medium">{name}</h3>
-        <p className="text-gray-700">2.99</p>
+        <h3 className="font-medium text-gray-800">{name}</h3>
+        <p className="text-gray-900">2.99</p>
       </div>
       <div className="text-gray-500">{quantity} items</div>
     </div>
